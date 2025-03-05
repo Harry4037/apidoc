@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
   <diagram name="Page-1" id="Arn-u_x7LlE9f3lmpmEq">
-    <mxGraphModel>
+    <mxGraphModel dx="794" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lCkz8iDcGgWN6EjIlEkm-1" value="&lt;b&gt;EC2&lt;/b&gt; (Asia Pacific Mumbai)&lt;div&gt;2 CPU 4 GB RAM&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="110" width="114" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="lCkz8iDcGgWN6EjIlEkm-2" value="&lt;b&gt;RDS Database&lt;/b&gt;&lt;div&gt;(Asia Pacific&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Mumbai&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;4 CPU 16 GB RAM&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="300" y="290" width="114" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="lCkz8iDcGgWN6EjIlEkm-3" value="&lt;b&gt;S3 bucket&lt;/b&gt;&lt;div&gt;(Asia Pacific&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Mumbai&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lCkz8iDcGgWN6EjIlEkm-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lCkz8iDcGgWN6EjIlEkm-1" target="lCkz8iDcGgWN6EjIlEkm-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="290" as="sourcePoint" />
+            <mxPoint x="430" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lCkz8iDcGgWN6EjIlEkm-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.867;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lCkz8iDcGgWN6EjIlEkm-1" target="lCkz8iDcGgWN6EjIlEkm-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="180" as="sourcePoint" />
+            <mxPoint x="430" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lCkz8iDcGgWN6EjIlEkm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lCkz8iDcGgWN6EjIlEkm-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="311" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lCkz8iDcGgWN6EjIlEkm-8" value="&lt;b&gt;Cloud Watch&lt;/b&gt;&lt;div&gt;(Asia Pacific&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;Mumbai&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;)&lt;/span&gt;&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lCkz8iDcGgWN6EjIlEkm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lCkz8iDcGgWN6EjIlEkm-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="321" y="65" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lCkz8iDcGgWN6EjIlEkm-10" value="&lt;b&gt;Route 53&lt;/b&gt;&lt;div&gt;(Global)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lCkz8iDcGgWN6EjIlEkm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lCkz8iDcGgWN6EjIlEkm-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="65" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lCkz8iDcGgWN6EjIlEkm-12" value="&lt;b&gt;Elastic IP Address&lt;/b&gt;&lt;br&gt;&lt;div&gt;(Asia Pacific Mumbai)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="40" width="130" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
